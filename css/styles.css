@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  position:absolute;
+  min-height: 100vh;
+  min-width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background: #1BB295;
+  
+}
+.buttons{
+  top: -50px;
+}
+
+
+.content {
+  width: 1000px;
+  height: 620px;
+  position: absolute;
+  display: inline-block;
+  align-items: center; 
+  justify-content: center;  
+  
+}
+
+.inputSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  top: 10px;
+  flex-direction: column;
+  
+
+}
+
+.wrapper{
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.letters{
+  display: flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  top:  0px;
+}
+  
+.letters input{
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin: 4px;
+  font-size: 60px;
+  font-weight: 100;
+  color: #1ba98c;
+  text-align: center;
+  flex-direction: row;
+  border-radius: 5px;
+  background: none;
+  pointer-events: none;
+  text-transform: uppercase;
+  border: 5px solid #ffbf6b;
+  }
+  
+.typing-input {
+  opacity: 0;
+  z-index: -999;
+  position: absolute;
+  }
+  
+  
+  .content .details{
+    margin: 40px 0 40px;
+  }
+  
+  .details p{
+    font-size: 30px;
+    margin-bottom: 10px;
+    top: -100px;
+  }
+  
+  .quit{
+    width:   auto;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    font-size: 40px;
+    border-radius: 5px;
+    background: #ffbf6b;
+    transition: all 0.3s ease;
+    font-family: luckiest_guyregular;
+    margin: 5px;
+    display: inline-block ;
+    padding: 10px;
+  }
+  
+  .reset-btn{
+    width: auto;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    font-size: 40px;
+    border-radius: 5px;
+    background: #ffbf6b;
+    transition: all 0.3s ease;
+    font-family: luckiest_guyregular;
+    margin: 1px;
+    padding: 10px;
+    top: -50px;
+    
+  }
+  .buttons{
+    top: -50px;
+  }
+  
+  .content .reset-btn:hover{
+    background: #18a589;
+  }
+  
+  .content .quit:hover{
+    background: #18a589;
+  }
+
+  
+  .hint {
+    display: flex;
+    font-size: 40px;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    right:300px;
+    top: -450px;
+    
+  }
+  .wrong-letter {
+    font-size: 40px;
+    font-weight: 100;
+    position:absolute;
+    display: inline;
+    top:-350px;
+    
+    
+  }
+  
+  .guess-left {
+
+    font-size: 40px;
+    font-weight: 100;
+    margin: 10px;;
+    right:180px;
+  }
+  
+  .note {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 10px;
+    color: black;
+  }
+
+  .pick {
+    top:-20px;
+  }
